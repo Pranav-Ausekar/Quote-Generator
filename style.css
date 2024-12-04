@@ -27,7 +27,7 @@ body {
     padding: 50px 40px;
     box-shadow: 0 20px 65px rgb(87, 11, 16, 0.5);
     position: relative;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
 }
 
@@ -43,14 +43,27 @@ body {
 }
 
 .container p {
+    display: none;
     color: #fdd8d8;
     line-height: 2;
     font-size: 18px;
 }
 
 .container h3 {
+    display: none;
     color: #fff;
     margin: 20px 0 50px 0;
     font-weight: 600;
     text-transform: capitalize;
+}
+
+.container button {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f43543;
+    cursor: pointer;
 }
